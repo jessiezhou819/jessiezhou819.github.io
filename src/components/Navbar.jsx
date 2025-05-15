@@ -22,9 +22,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Jessie&nbsp;<span className="sm:block hidden">Zhou</span>
+            Jessie&nbsp;
+            <span className="sm:block hidden">
+              Zhou&nbsp; | &nbsp;Portfolio
+            </span>
           </p>
         </Link>
         {/* Desktop */}

@@ -67,10 +67,10 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-6 flex flex-col gap-8"
+          className="mt-2 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <div className="flex flex-row mb-10 justify-between">
+            <div className="flex flex-row mb-6 justify-between">
               <a
                 href="https://www.linkedin.com/in/zhou-jiaqi"
                 target="_blank"
@@ -198,7 +198,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              rows={5}
+              rows={3}
               name="message"
               value={form.message}
               onChange={handleChange}

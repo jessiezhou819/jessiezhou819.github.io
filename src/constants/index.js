@@ -161,7 +161,7 @@ const projects = [
       },
       {
         name: "oracledb",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: gardenApp,
@@ -207,7 +207,7 @@ const projects = [
       },
       {
         name: "ggplot",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: wine,
