@@ -40,9 +40,9 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Hi! I'm Jessie Zhou, a third-year Computer Science and Statistics
-        student at the University of British Columbia. I am currently a Co-op
+        student at the University of British Columbia. I previously interned as a
         Full Stack Developer at Tetra Tech, where I contribute to the
-        development of FusionMap 🌎. In this role, I’ve gained hands-on
+        development of FusionMap 🌎. In this role, I gained hands-on
         experience with TypeScript and JavaScript, and developed proficiency in
         frameworks like React, Express, and Node.js. I'm always looking for
         opportunities to learn, collaborate, and create something meaningful 🎨.

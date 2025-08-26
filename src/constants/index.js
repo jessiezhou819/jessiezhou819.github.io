@@ -116,6 +116,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Teaching Assistant",
+    company_name: "University of British Columbia",
+    icon: ubc,
+    iconBg: "#E6DEDD",
+    date: "July 2025 - Aug 2025",
+    points: [
+      "Teaching Assistant for CPSC 304 - Relational Databases, led 3 weekly tutorials and held office hours supporting 140+ students in SQL and database concepts",
+      "Mentored 2 student project groups in database application development through regular check-ins and providing detailed feedback",
+      "Served as JavaScript lead, troubleshooting and assisting with Oracle server setup and Node.js configuration",
+    ],
+  },
+  {
     title: "Full Stack Developer Co-op",
     company_name: "Tetra Tech - FusionMap",
     icon: tetratech,
@@ -125,7 +137,7 @@ const experiences = [
       "Built and optimized features for FusionMap’s web and mobile interfaces using React, Express, and Node.js.",
       "Enhanced data visualization by integrating geospatial services and optimizing storage with Azure Blob Storage.",
       "Refactored backend APIs and normalized data structures in PostgreSQL to improve performance.",
-      "Collaborated with product managers and senior developers to plan, design, and deliver features.",
+      "Collaborated with product managers and senior developers to plan, design, and deliver REST APIs.",
       "Participated in daily Scrum meetings and used Jira and Confluence for task tracking and documentation.",
     ],
   },
