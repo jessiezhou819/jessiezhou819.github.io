@@ -31,6 +31,8 @@ import ubc from "./company/ubc.png";
 import hotel from "./hotel.png";
 import gardenApp from "./gardenApp.png";
 import wine from "./wine.png";
+import campus from "./campus.png";
+import income from "./income.png";
 
 export {
   logo,
@@ -63,4 +65,6 @@ export {
   laptop,
   paint,
   gardenApp,
+  income,
+  campus,
 };

@@ -10,6 +10,8 @@ import {
   hotel,
   gardenApp,
   wine,
+  campus,
+  income,
   threejs,
   tetratech,
   ubc,
@@ -143,9 +145,34 @@ const experiences = [
 
 const projects = [
   {
+    name: "CampusExplorer",
+    description:
+      "A full-stack UBC campus navigation app that lets students search and select from 1,000+ rooms on an interactive map and view routes with walking times and distances",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: campus,
+    source_code_link: "https://github.com/jessiezhou819/campus-explorer",
+  },
+  {
     name: "GardenTracker",
     description:
-      "Web application that enables users within a household to effectively manage and monitor garden activities, including viewing real-time summarization of data",
+      "A web application that enables users within a household to effectively manage and monitor garden activities, including viewing real-time summarization of data",
     tags: [
       {
         name: "javascript",
@@ -156,7 +183,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "restapi",
+        name: "sql",
         color: "pink-text-gradient",
       },
       {
@@ -191,10 +218,10 @@ const projects = [
   {
     name: "WineQualityPredictor",
     description:
-      "A predictive model created using KNN classification algorithm in R to predict wine quality based on five most relevant predictors.",
+      "A predictive model created using KNN classification algorithm in R to predict wine quality based on five most relevant predictors",
     tags: [
       {
-        name: "r",
+        name: "R",
         color: "blue-text-gradient",
       },
       {
@@ -212,6 +239,32 @@ const projects = [
     ],
     image: wine,
     source_code_link: "https://github.com/jessiezhou819/wine-quality-report",
+  },
+  {
+    name: "IncomeAnalysis",
+    description:
+      "A regression analysis project exploring how household income relates to demographics and consumer spending patterns",
+    tags: [
+      {
+        name: "EDA",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "multiple linear regression",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stepwise selection",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "model evaluation",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: income,
+    source_code_link:
+      "https://github.com/jessiezhou819/consumer-income-analysis",
   },
 ];
 
