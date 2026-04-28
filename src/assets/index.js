@@ -26,6 +26,7 @@ import r from "./tech/r.png";
 import sklearn from "./tech/sklearn.png";
 
 import tetratech from "./company/tetratech.png";
+import samsung from "./company/samsung.png";
 import ubc from "./company/ubc.png";
 
 import hotel from "./hotel.png";
@@ -50,6 +51,7 @@ export {
   threejs,
   ubc,
   tetratech,
+  samsung,
   hotel,
   wine,
   postgresql,

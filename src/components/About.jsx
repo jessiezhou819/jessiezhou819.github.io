@@ -39,13 +39,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hi! I'm Jessie Zhou, a third-year Computer Science and Statistics
-        student at the University of British Columbia. I previously interned as a
-        Full Stack Developer at Tetra Tech, where I contribute to the
-        development of FusionMap 🌎. In this role, I gained hands-on
-        experience with TypeScript and JavaScript, and developed proficiency in
-        frameworks like React, Express, and Node.js. I'm always looking for
-        opportunities to learn, collaborate, and create something meaningful 🎨.
+        Hi! I'm Jessie Zhou, a fourth year Computer Science student at the
+        University of British Columbia. Previously, I interned as a Full Stack
+        Developer at Samsung and Tetra Tech. In these roles, I gained hands-on
+        experience with TypeScript, and developed proficiency in frameworks like
+        React, Express, and Node.js, as well as integrating observability tools
+        such as Grafana. Other than that, I'm always looking
+        for opportunities to learn, collaborate, and create something meaningful
+        🎨.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

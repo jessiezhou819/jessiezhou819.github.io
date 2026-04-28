@@ -14,6 +14,7 @@ import {
   income,
   threejs,
   tetratech,
+  samsung,
   ubc,
   postgresql,
   python,
@@ -116,6 +117,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full Stack Developer Co-op",
+    company_name: "Samsung Electronics Canada",
+    icon: samsung,
+    iconBg: "#E6DEDD",
+    date: "Sep 2025 - May 2026",
+    points: [
+      "Built full-stack features for Samsung Knox, an enterprise mobile platform, using React, Next.js, and Node.js.",
+      "Integrated Grafana Faro SDK for frontend observability, monitoring user journeys and performance issues.",
+      "Migrated 7 UI and API service repositories into a monorepo, improving development workflow and code sharing.",
+      "Used AWS S3 for secure file storage and upload management and MongoDB to manage tenant data.",
+    ],
+  },
+  {
     title: "Teaching Assistant",
     company_name: "University of British Columbia",
     icon: ubc,
@@ -148,7 +162,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2022 - Current",
     points: [
-      "Third-year student pursuing a Bachelor of Science in a Combined Major in Computer Science and Statistics.",
+      "Fourth-year student pursuing a Bachelor of Science in a Combined Major in Computer Science and Statistics.",
       "Awards: Faculty of Science International Student Scholarship ($9,000), Dean’s Scholar.",
       "Relevant courses: Algorithms and Data Structures, Relational Databases, Computer Systems, Software Construction, Matrix Algebra.",
     ],
